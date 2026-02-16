@@ -1,0 +1,18 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "gcc-mingw64",
+            "displayName": "GCC MinGW64",
+            "description": "Using compilers: C = E:\\gcc\\mingw64\\bin\\gcc.exe, CXX = E:\\gcc\\mingw64\\bin\\g++.exe",
+            "generator": "MinGW Makefiles",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "E:/gcc/mingw64/bin/gcc.exe",
+                "CMAKE_CXX_COMPILER": "E:/gcc/mingw64/bin/g++.exe",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ]
+}

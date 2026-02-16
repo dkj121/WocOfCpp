@@ -1,0 +1,2 @@
+E:\gcc\mingw64\bin\ar.exe qc libJsonExpression.a CMakeFiles/JsonExpression.dir/JsonExpression.cpp.obj
+E:\gcc\mingw64\bin\ranlib.exe libJsonExpression.a
