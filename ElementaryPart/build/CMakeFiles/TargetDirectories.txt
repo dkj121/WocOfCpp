@@ -1,3 +1,0 @@
-E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/build/CMakeFiles/JsonExpression.dir
-E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/build/CMakeFiles/edit_cache.dir
-E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/build/CMakeFiles/rebuild_cache.dir
