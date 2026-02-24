@@ -1,9 +1,29 @@
 # README FOR COUNTER
 
-可执行文件：[counter.exe](ElementaryPart\counter\out\build\myCounter\counter.exe)
+---
 
-执行样例：
-![样例](..\..\Asset\Snipaste_2026-02-24_11-16-08.jpg)
+## 可执行文件
+
+[counter.exe](ElementaryPart/counter/out/build/myCounter/counter.exe)
+
+---
+
+## 执行样例
+
+![样例](../../Asset/Snipaste_2026-02-24_11-16-08.jpg)
+
+---
+
+## Quick Start
+
+当‘>’出现，证明程序正常运行
+对多字符关键字不支持去除字符之间的空格
+对于函数定义固定使用fun(x) = …… ~~（自己都忘了两次）~~
+建议按Ctrl + C结束程序
+
+---
+
+## 实现内容
 
 - [x] 支持基本四则运算：+, -, *, /
 - [x] 支持括号 () 改变优先级
@@ -23,12 +43,26 @@
 - [ ] 支持复数运算
 - [ ] 实现 REPL 交互界面，支持历史记录
 
-技术栈:CMake, gcc?~~(不确定技术栈有啥)~~
+---
 
-开发环境:Windows11
+## 技术栈
+
+CMake, gcc  ~~ChatGPT 5.2~~
+
+---
+
+## 开发环境
+
+Windows11
+
+---
+
+## 参考文献
 
 对于整体上的结构设计参考了[《craftinginterpreters》](https://craftinginterpreters.com/)。
 
 对于排版则是在参考了ai的代码后~~大刀阔斧~~的修改了一点。
 
-对于Calculators中有关调度场算法的代码基本上由伟大的ChatGPT实现，而注释则大都用Tab+肉眼识别。~~ (本蒻蒻在算法和英语上实在是拼尽全力，无法战胜了) ~~
+对于Calculators中有关调度场算法的代码基本上由伟大的ChatGPT实现，而注释则大都用Tab+肉眼识别。~~(本蒻蒻在算法和英语上实在是拼尽全力，无法战胜了)~~
+
+---
