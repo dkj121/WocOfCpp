@@ -4,7 +4,9 @@ Use Example :fun(5) => 5 ^ 2 + 3 => 28
 */
 #include "Calculators.h"
 
-double CalculateFunction(const std::vector<std::pair<Token, std::string>> function, const std::map<std::string, double>& variables, Error& err)
+double CalculateFunction(const std::vector<std::pair<Token, std::string>> function,
+                         const std::map<std::string, double>& variables,
+                         Error& err)
 {
     std::vector<std::pair<Token, std::string>> substitutedFunction = function;
     for (auto& token : substitutedFunction)
@@ -15,7 +17,7 @@ double CalculateFunction(const std::vector<std::pair<Token, std::string>> functi
             if (it == variables.end())
             {
                 err = ERROR_UNDEFINED_VARIABLE;
-                return 0.0; // Return value won't be used when there's an error
+                return 0.0;
             }
             token.first = NUM;
             token.second = std::to_string(it->second);
@@ -27,18 +29,16 @@ double CalculateFunction(const std::vector<std::pair<Token, std::string>> functi
 std::vector<std::pair<Token, std::string>> DefineFunction(std::vector<std::pair<Token, std::string>> input)
 {
     std::vector<std::pair<Token, std::string>> result;
-    std::string param = input[1].second; // Assuming the parameter is always at index 1
 
-    for (size_t i = 4; i < input.size(); ++i)
+    std::string param = input[2].second;
+
+    for (size_t i = 5; i < input.size(); ++i)
     {
         if (input[i].first == PARAM && input[i].second != param)
         {
             throw ERROR_VARIABLE_ALREADY_DEFINED;
         }
-        else
-        {
-            result.push_back(input[i]);
-        }
+        result.push_back(input[i]);
     }
 
     return result;

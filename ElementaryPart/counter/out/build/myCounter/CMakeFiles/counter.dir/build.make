@@ -176,11 +176,26 @@ CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.s"
 	E:\gcc\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Calculators\VarCalculator.cpp -o CMakeFiles\counter.dir\Calculators\VarCalculator.cpp.s
 
+CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj: CMakeFiles/counter.dir/flags.make
+CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj: CMakeFiles/counter.dir/includes_CXX.rsp
+CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj: E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Calculators/FoldFunctionCalls.cpp
+CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj: CMakeFiles/counter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj"
+	E:\gcc\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj -MF CMakeFiles\counter.dir\Calculators\FoldFunctionCalls.cpp.obj.d -o CMakeFiles\counter.dir\Calculators\FoldFunctionCalls.cpp.obj -c E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Calculators\FoldFunctionCalls.cpp
+
+CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.i"
+	E:\gcc\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Calculators\FoldFunctionCalls.cpp > CMakeFiles\counter.dir\Calculators\FoldFunctionCalls.cpp.i
+
+CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.s"
+	E:\gcc\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Calculators\FoldFunctionCalls.cpp -o CMakeFiles\counter.dir\Calculators\FoldFunctionCalls.cpp.s
+
 CMakeFiles/counter.dir/Tokens/Token.cpp.obj: CMakeFiles/counter.dir/flags.make
 CMakeFiles/counter.dir/Tokens/Token.cpp.obj: CMakeFiles/counter.dir/includes_CXX.rsp
 CMakeFiles/counter.dir/Tokens/Token.cpp.obj: E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Tokens/Token.cpp
 CMakeFiles/counter.dir/Tokens/Token.cpp.obj: CMakeFiles/counter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/counter.dir/Tokens/Token.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/counter.dir/Tokens/Token.cpp.obj"
 	E:\gcc\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/counter.dir/Tokens/Token.cpp.obj -MF CMakeFiles\counter.dir\Tokens\Token.cpp.obj.d -o CMakeFiles\counter.dir\Tokens\Token.cpp.obj -c E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Tokens\Token.cpp
 
 CMakeFiles/counter.dir/Tokens/Token.cpp.i: cmake_force
@@ -195,7 +210,7 @@ CMakeFiles/counter.dir/Errors/Error.cpp.obj: CMakeFiles/counter.dir/flags.make
 CMakeFiles/counter.dir/Errors/Error.cpp.obj: CMakeFiles/counter.dir/includes_CXX.rsp
 CMakeFiles/counter.dir/Errors/Error.cpp.obj: E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Errors/Error.cpp
 CMakeFiles/counter.dir/Errors/Error.cpp.obj: CMakeFiles/counter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/counter.dir/Errors/Error.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/counter.dir/Errors/Error.cpp.obj"
 	E:\gcc\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/counter.dir/Errors/Error.cpp.obj -MF CMakeFiles\counter.dir\Errors\Error.cpp.obj.d -o CMakeFiles\counter.dir\Errors\Error.cpp.obj -c E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Errors\Error.cpp
 
 CMakeFiles/counter.dir/Errors/Error.cpp.i: cmake_force
@@ -215,6 +230,7 @@ counter_OBJECTS = \
 "CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.obj" \
 "CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj" \
 "CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.obj" \
+"CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj" \
 "CMakeFiles/counter.dir/Tokens/Token.cpp.obj" \
 "CMakeFiles/counter.dir/Errors/Error.cpp.obj"
 
@@ -228,13 +244,14 @@ counter.exe: CMakeFiles/counter.dir/Parses/TypeParse.cpp.obj
 counter.exe: CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.obj
 counter.exe: CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj
 counter.exe: CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.obj
+counter.exe: CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj
 counter.exe: CMakeFiles/counter.dir/Tokens/Token.cpp.obj
 counter.exe: CMakeFiles/counter.dir/Errors/Error.cpp.obj
 counter.exe: CMakeFiles/counter.dir/build.make
 counter.exe: CMakeFiles/counter.dir/linkLibs.rsp
 counter.exe: CMakeFiles/counter.dir/objects1.rsp
 counter.exe: CMakeFiles/counter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable counter.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable counter.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\counter.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

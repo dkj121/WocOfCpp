@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.obj"
   "CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.obj.d"
+  "CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj"
+  "CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj.d"
   "CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj"
   "CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj.d"
   "CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.obj"

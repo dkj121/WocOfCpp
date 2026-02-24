@@ -9,6 +9,7 @@ add_executable(counter
   Calculators/CommenCalculator.cpp
   Calculators/FunCalculator.cpp
   Calculators/VarCalculator.cpp
+  Calculators/FoldFunctionCalls.cpp
   Tokens/Token.cpp
   Errors/Error.cpp
 )

@@ -106,5 +106,12 @@ CMakeFiles/counter.dir/Parses/TypeParse.cpp.obj: \
  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_vector.h \
  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
  E:/gcc/mingw64/include/c++/15.2.0/bits/vector.tcc \
+ E:/gcc/mingw64/include/c++/15.2.0/map \
+ E:/gcc/mingw64/include/c++/15.2.0/bits/stl_tree.h \
+ E:/gcc/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \
+ E:/gcc/mingw64/include/c++/15.2.0/bits/node_handle.h \
+ E:/gcc/mingw64/include/c++/15.2.0/bits/stl_map.h \
+ E:/gcc/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
+ E:/gcc/mingw64/include/c++/15.2.0/bits/erase_if.h \
  E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Tokens/Tokens.h \
  E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Errors/Errors.h

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Calculators/CommenCalculator.cpp" "CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.obj" "gcc" "CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.obj.d"
+  "E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Calculators/FoldFunctionCalls.cpp" "CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj" "gcc" "CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj.d"
   "E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Calculators/FunCalculator.cpp" "CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj" "gcc" "CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj.d"
   "E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Calculators/VarCalculator.cpp" "CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.obj" "gcc" "CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.obj.d"
   "E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Errors/Error.cpp" "CMakeFiles/counter.dir/Errors/Error.cpp.obj" "gcc" "CMakeFiles/counter.dir/Errors/Error.cpp.obj.d"

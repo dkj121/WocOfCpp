@@ -152,6 +152,30 @@ Calculators/CommenCalculator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.s
 .PHONY : Calculators/CommenCalculator.cpp.s
 
+Calculators/FoldFunctionCalls.obj: Calculators/FoldFunctionCalls.cpp.obj
+.PHONY : Calculators/FoldFunctionCalls.obj
+
+# target to build an object file
+Calculators/FoldFunctionCalls.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj
+.PHONY : Calculators/FoldFunctionCalls.cpp.obj
+
+Calculators/FoldFunctionCalls.i: Calculators/FoldFunctionCalls.cpp.i
+.PHONY : Calculators/FoldFunctionCalls.i
+
+# target to preprocess a source file
+Calculators/FoldFunctionCalls.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.i
+.PHONY : Calculators/FoldFunctionCalls.cpp.i
+
+Calculators/FoldFunctionCalls.s: Calculators/FoldFunctionCalls.cpp.s
+.PHONY : Calculators/FoldFunctionCalls.s
+
+# target to generate assembly for a file
+Calculators/FoldFunctionCalls.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.s
+.PHONY : Calculators/FoldFunctionCalls.cpp.s
+
 Calculators/FunCalculator.obj: Calculators/FunCalculator.cpp.obj
 .PHONY : Calculators/FunCalculator.obj
 
@@ -356,6 +380,9 @@ help:
 	@echo ... Calculators/CommenCalculator.obj
 	@echo ... Calculators/CommenCalculator.i
 	@echo ... Calculators/CommenCalculator.s
+	@echo ... Calculators/FoldFunctionCalls.obj
+	@echo ... Calculators/FoldFunctionCalls.i
+	@echo ... Calculators/FoldFunctionCalls.s
 	@echo ... Calculators/FunCalculator.obj
 	@echo ... Calculators/FunCalculator.i
 	@echo ... Calculators/FunCalculator.s

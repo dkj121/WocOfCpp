@@ -84,12 +84,12 @@ clean: CMakeFiles/counter.dir/clean
 CMakeFiles/counter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target counter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target counter"
 .PHONY : CMakeFiles/counter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/counter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/counter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles 0
 .PHONY : CMakeFiles/counter.dir/rule
@@ -101,7 +101,7 @@ counter: CMakeFiles/counter.dir/rule
 # codegen rule for target.
 CMakeFiles/counter.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target counter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\out\build\myCounter\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Finished codegen for target counter"
 .PHONY : CMakeFiles/counter.dir/codegen
 
 # clean rule for target.

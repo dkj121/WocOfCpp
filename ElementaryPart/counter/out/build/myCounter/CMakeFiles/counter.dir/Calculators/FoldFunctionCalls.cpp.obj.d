@@ -1,5 +1,5 @@
-CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj: \
- E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Calculators\FunCalculator.cpp \
+CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj: \
+ E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Calculators\FoldFunctionCalls.cpp \
  E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Calculators\Calculators.h \
  E:/gcc/mingw64/include/c++/15.2.0/string \
  E:/gcc/mingw64/include/c++/15.2.0/bits/requires_hosted.h \

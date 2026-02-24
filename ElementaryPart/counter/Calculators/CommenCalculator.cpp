@@ -22,7 +22,7 @@ namespace
 
     struct OpInfo { int prec; bool rightAssoc; int arity; };
 
-    static bool isFunc(Token t) { return t == SIN || t == COS || t == TAN || t == FUN || t == VAR; }
+    static bool isFunc(Token t) { return t == SIN || t == COS || t == TAN; }
     static bool isValue(Token t) { return t == NUM; }
     static bool isUnaryTok(Token t) { return t == BANG; }
 
@@ -93,9 +93,12 @@ namespace
         return true;
     }
 
-    static bool apply(const Op& op, std::stack<double>& st, const std::vector<std::pair<Token, std::string>>& function, const std::map<std::string, double>& variables, Error& err)
+    static bool apply(const Op& op, std::stack<double>& st,
+                      const std::vector<std::pair<Token, std::string>>& /*function*/,
+                      const std::map<std::string, double>& /*variables*/,
+                      Error& err)
     {
-        // function: sin/cos/tan/FUN
+        // function: sin/cos/tan
         if (op.kind == OpKind::Tok && isFunc(op.tok))
         {
             double a;
@@ -105,14 +108,6 @@ namespace
                 case SIN: st.push(std::sin(a)); return true;
                 case COS: st.push(std::cos(a)); return true;
                 case TAN: st.push(std::tan(a)); return true;
-                case VAR:
-                    {
-                        auto it = variables.find(function[0].second);
-                        if (it == variables.end()) { err = ERROR_UNDEFINED_VARIABLE; return false; }
-                        st.push(it->second);
-                        return true;
-                    }
-                case FUN: st.push(CalculateFunction(function, variables, err)); return true;
                 default: err = ERROR_UNKNOWN_ERROR; return false;
             }
         }
@@ -179,12 +174,13 @@ namespace
 
     static bool operandLike(Token t)
     {
-        // 能结束“操作数”的 token：NUM、RPARE
-        return t == NUM || t == RPARE;
+        return t == NUM || t == RPARE || t == PARAM;
     }
 }
 
-std::string CommenCalculate(const std::vector<std::pair<Token, std::string>> input, const std::vector<std::pair<Token, std::string>> function, const std::map<std::string, double> variables)
+std::string CommenCalculate(const std::vector<std::pair<Token, std::string>> input,
+                            const std::vector<std::pair<Token, std::string>> function,
+                            const std::map<std::string, double> variables)
 {
     if (input.empty())
         return GetErrorMessage(ERROR_EMPTY_INPUT);
@@ -236,12 +232,23 @@ std::string CommenCalculate(const std::vector<std::pair<Token, std::string>> inp
         if (t == UNKNOWN || t == NUL)
             return GetErrorMessage(ERROR_SYNTAX_ERROR);
 
-        if (t == VAR || t == PARAM || t == FUN)
+        if (t == VAR || t == FUN)
             return GetErrorMessage(ERROR_INVALID_ARGUMENT);
 
         if (isValue(t))
         {
             out.push_back(Rpn::num(lex));
+            prev = t; hasPrev = true;
+            continue;
+        }
+
+        if (t == PARAM)
+        {
+            auto it = variables.find(lex);
+            if (it == variables.end())
+                return GetErrorMessage(ERROR_UNDEFINED_VARIABLE);
+
+            out.push_back(Rpn::num(std::to_string(it->second)));
             prev = t; hasPrev = true;
             continue;
         }
@@ -277,7 +284,6 @@ std::string CommenCalculate(const std::vector<std::pair<Token, std::string>> inp
             if (!matched)
                 return GetErrorMessage(ERROR_MISSING_PARENTHESIS);
 
-            // '(' 前如有函数名，弹出函数
             if (!ops.empty() && ops.top().kind == OpKind::Tok && isFunc(ops.top().tok))
             {
                 out.push_back(Rpn::oper(ops.top()));
