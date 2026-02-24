@@ -1,6 +1,6 @@
-CMakeFiles/counter.dir/main.cpp.obj: \
- E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\main.cpp \
- E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Tokens/Tokens.h \
+CMakeFiles/counter.dir/Tokens/Token.cpp.obj: \
+ E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Tokens\Token.cpp \
+ E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Tokens\Tokens.h \
  E:/gcc/mingw64/include/c++/15.2.0/string \
  E:/gcc/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -100,71 +100,4 @@ CMakeFiles/counter.dir/main.cpp.obj: \
  E:/gcc/mingw64/x86_64-w64-mingw32/include/stddef.h \
  E:/gcc/mingw64/include/c++/15.2.0/bits/uses_allocator.h \
  E:/gcc/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h \
- E:/gcc/mingw64/include/c++/15.2.0/tuple \
- E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Errors/Errors.h \
- E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Parses/Parses.h \
- E:/gcc/mingw64/include/c++/15.2.0/vector \
- E:/gcc/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/stl_vector.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/vector.tcc \
- E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Tokens/Tokens.h \
- E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Errors/Errors.h \
- E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Reader/Reader.h \
- E:\VScode_Programs\learning\CorCppLearning\WocOfCpp\ElementaryPart\counter\Calculators/Calculators.h \
- E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Tokens/Tokens.h \
- E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Errors/Errors.h \
- E:/gcc/mingw64/include/c++/15.2.0/iostream \
- E:/gcc/mingw64/include/c++/15.2.0/ostream \
- E:/gcc/mingw64/include/c++/15.2.0/bits/ostream.h \
- E:/gcc/mingw64/include/c++/15.2.0/ios \
- E:/gcc/mingw64/include/c++/15.2.0/exception \
- E:/gcc/mingw64/include/c++/15.2.0/bits/exception_ptr.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/cxxabi_init_exception.h \
- E:/gcc/mingw64/include/c++/15.2.0/typeinfo \
- E:/gcc/mingw64/include/c++/15.2.0/bits/nested_exception.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/ios_base.h \
- E:/gcc/mingw64/include/c++/15.2.0/ext/atomicity.h \
- E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr.h \
- E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/pthread.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/sys/types.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/process.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/signal.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/time.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/_timeval.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/sched.h \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
- E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/locale_classes.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/locale_classes.tcc \
- E:/gcc/mingw64/include/c++/15.2.0/system_error \
- E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/error_constants.h \
- E:/gcc/mingw64/include/c++/15.2.0/stdexcept \
- E:/gcc/mingw64/include/c++/15.2.0/streambuf \
- E:/gcc/mingw64/include/c++/15.2.0/bits/streambuf.tcc \
- E:/gcc/mingw64/include/c++/15.2.0/bits/basic_ios.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/locale_facets.h \
- E:/gcc/mingw64/include/c++/15.2.0/cwctype \
- E:/gcc/mingw64/x86_64-w64-mingw32/include/wctype.h \
- E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/streambuf_iterator.h \
- E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/locale_facets.tcc \
- E:/gcc/mingw64/include/c++/15.2.0/bits/basic_ios.tcc \
- E:/gcc/mingw64/include/c++/15.2.0/bits/ostream.tcc \
- E:/gcc/mingw64/include/c++/15.2.0/istream \
- E:/gcc/mingw64/include/c++/15.2.0/bits/istream.tcc \
- E:/gcc/mingw64/include/c++/15.2.0/map \
- E:/gcc/mingw64/include/c++/15.2.0/bits/stl_tree.h \
- E:/gcc/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/node_handle.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/stl_map.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
- E:/gcc/mingw64/include/c++/15.2.0/bits/erase_if.h
+ E:/gcc/mingw64/include/c++/15.2.0/tuple

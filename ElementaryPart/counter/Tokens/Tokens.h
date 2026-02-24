@@ -8,7 +8,7 @@ const double pi = 3.14159265358979323846;
 
 enum Token
 {
-    AND, OR,
+    OR, AND,
 
     GREATER, GREATER_EQUAL,
     LESS, LESS_EQUAL,
@@ -27,7 +27,7 @@ enum Token
 
     EQUAL, BANG,
 
-    FUN, VAR, PARAM, FUNCALL,
+    FUN, VAR, VARDEF, PARAM, FUNDEF,
 
     UNKNOWN, END
 };

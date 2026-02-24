@@ -4,6 +4,8 @@ std::string GetErrorMessage(Error error)
 {
     switch (error)
     {
+        case NO_ERROR:
+            return std::string(); // Return an empty string for no error
         case ERROR_EMPTY_INPUT:
             return "Error: No input provided.";
         case ERROR_SYNTAX_ERROR:

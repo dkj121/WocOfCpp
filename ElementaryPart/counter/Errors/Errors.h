@@ -5,7 +5,8 @@
 
 enum Error
 {
-    ERROR_EMPTY_INPUT,              // No input provided
+    NO_ERROR,                       // No error occurred
+    ERROR_EMPTY_INPUT,              // Input is empty
     ERROR_SYNTAX_ERROR,             // General syntax error
     ERROR_DIVISION_BY_ZERO,         // Attempt to divide by zero
     ERROR_MODULO_BY_ZERO,           // Attempt to perform modulo by zero

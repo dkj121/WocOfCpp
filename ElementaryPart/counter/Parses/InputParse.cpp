@@ -13,49 +13,65 @@ std::vector<std::pair<Token, std::string>> InputParse(std::string input)
         {
             input.erase(0, 1);
         }
-        else if (input.substr(0, 4) == "sin(")
+        else if (input.substr(0, 3) == "sin")
         {
-            token_input.push_back({SIN, "sin("});
-            input.erase(0, 4);
+            token_input.push_back({SIN, "sin"});
+            input.erase(0, 3);
         }
-        else if (input.substr(0, 4) == "cos(")
+        else if (input.substr(0, 3) == "cos")
         {
-            token_input.push_back({COS, "cos("});
-            input.erase(0, 4);
+            token_input.push_back({COS, "cos"});
+            input.erase(0, 3);
         }
-        else if (input.substr(0, 4) == "tan(")
+        else if (input.substr(0, 3) == "tan")
         {
-            token_input.push_back({TAN, "tan("});
-            input.erase(0, 4);
+            token_input.push_back({TAN, "tan"});
+            input.erase(0, 3);
         }
-        else if (input.substr(0, 4) == "fun(")
+        else if (input.substr(0, 3) == "fun")
         {
-            token_input.push_back({FUN, "fun("});
-            input.erase(0, 4);
+            token_input.push_back({FUN, "fun"});
+            input.erase(0, 3);
         }
-        else if (input.substr(0, 4) == "var(")
+        else if (input.substr(0, 3) == "var")
         {
-            token_input.push_back({VAR, "var("});
-            input.erase(0, 4);
+            token_input.push_back({VAR, "var"});
+            input.erase(0, 3);
         }
         else if (input.substr(0, 1) == "=")
         {
-            token_input.push_back({EQUAL, "="});
-            input.erase(0, 1);
-        }
-        else if (input.substr(0, 2) == "==")
-        {
-            token_input.push_back({EQUAL_EQUAL, "=="});
-            input.erase(0, 2);
+            if (input.substr(0, 2) == "==")
+            {
+                token_input.push_back({EQUAL_EQUAL, "=="});
+                input.erase(0, 2);
+            }
+            else
+            {
+                token_input.push_back({EQUAL, "="});
+                input.erase(0, 1);
+            }
         }
         else if (input.substr(0, 1) == "!")
         {
-            token_input.push_back({BANG, "!"});
-            input.erase(0, 1);
+            if (input.substr(0, 2) == "!=")
+            {
+                token_input.push_back({BANG_EQUAL, "!="});
+                input.erase(0, 2);
+            }
+            else
+            {
+                token_input.push_back({BANG, "!"});
+                input.erase(0, 1);
+            }
         }
-        else if (input.substr(0, 2) == "!=")
+        else if (input.substr(0, 2) == "&&")
         {
-            token_input.push_back({BANG_EQUAL, "!="});
+            token_input.push_back({AND, "&&"});
+            input.erase(0, 2);
+        }
+        else if (input.substr(0, 2) == "||")
+        {
+            token_input.push_back({OR, "||"});
             input.erase(0, 2);
         }
         else if (input.substr(0, 1) == ">")
@@ -137,12 +153,19 @@ std::vector<std::pair<Token, std::string>> InputParse(std::string input)
             token_input.push_back({NUL, "null"});
             input.erase(0, 4);
         }
-        else if (isdigit(input[0]))
+        else if (isdigit(input[0]) || input[0] == 'e' || input[0] == 'p')
         {
             std::string num_str;
-            while (!input.empty() && (isdigit(input[0]) || input[0] == '.' || input[0] == 'e' || input[0] == 'E'))
+            while (!input.empty() && (isdigit(input[0]) || input[0] == '.'|| input[0] == 'e' || input[0] == 'p'))
             {
-                num_str += input[0];
+                if (input[0] == 'p' && input.substr(0, 2) == "pi")
+                {
+                    num_str += "3.14159265358979323846";
+                    input.erase(0, 2);
+                    continue;
+                }
+                else if (input[0] == 'e') num_str += "2.71828182845904523536";
+                else num_str += input[0];
                 input.erase(0, 1);
             }
             token_input.push_back({NUM, num_str});

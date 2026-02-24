@@ -9,21 +9,39 @@
 
 int main(int argc, char** argv)
 {
-    std::map<std::string, double> variables;
-    std::map<std::string, std::pair<std::vector<std::string>, std::vector<Token>>> function;
+    static std::map<std::string, double> variables;
+    static std::vector<std::pair<Token, std::string>> function;
     while(true)
     {
         std::string input_string = InputReader();
         std::vector<std::pair<Token, std::string>> input_tokens = InputParse(input_string);
-        try
+        if (input_tokens.empty())
         {
-            Token input_type = TypeParse(input_tokens);
+            continue;
         }
-        catch(Error e)
+
+        std::pair<Token, std::string> type = TypeParse(input_tokens);
+
+        if (type.first == NUM || type.first == NUL || type.first == PLUS || type.first == MINU || type.first == UNKNOWN)
         {
-            std::cout << GetErrorMessage(e) << std::endl;
+            std::string result = CommenCalculate(input_tokens, function, variables);
+            std::cout << result << std::endl;
         }
-        
+        else if (type.first == FUNDEF)
+        {
+            std::vector<std::pair<Token, std::string>> function = DefineFunction(input_tokens);
+            std::cout << "Function defined successfully." << std::endl;
+        }
+        else if (type.first == VARDEF)
+        {
+            std::pair<std::string, double> result = DefineVariable(input_tokens);
+            variables[result.first] = result.second;
+        }
+        else
+        {
+            std::cout << type.second << std::endl;
+            continue;
+        }
     }
     return 0;
 }

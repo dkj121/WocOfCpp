@@ -5,6 +5,7 @@ std::string InputReader()
 {
     std::string input_string;
     int c;
+    printf("> ");
     while ((c = getchar()) != '\n')
     {
         if (c == EOF)

@@ -4,10 +4,24 @@ Use Example :fun(5) => 5 ^ 2 + 3 => 28
 */
 #include "Calculators.h"
 
-std::string FunctionCalculate(std::vector<std::pair<Token, std::string>> function)
+double CalculateFunction(const std::vector<std::pair<Token, std::string>> function, const std::map<std::string, double>& variables, Error& err)
 {
-    // TODO: Implement the logic to calculate the value of a function based on the provided tokens and parameters.
-    return "Function calculation result";
+    std::vector<std::pair<Token, std::string>> substitutedFunction = function;
+    for (auto& token : substitutedFunction)
+    {
+        if (token.first == PARAM)
+        {
+            auto it = variables.find(token.second);
+            if (it == variables.end())
+            {
+                err = ERROR_UNDEFINED_VARIABLE;
+                return 0.0; // Return value won't be used when there's an error
+            }
+            token.first = NUM;
+            token.second = std::to_string(it->second);
+        }
+    }
+    return getNum(CommenCalculate(substitutedFunction, {}, variables));
 }
 
 std::vector<std::pair<Token, std::string>> DefineFunction(std::vector<std::pair<Token, std::string>> input)

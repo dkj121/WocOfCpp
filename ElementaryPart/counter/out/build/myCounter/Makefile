@@ -128,6 +128,198 @@ counter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/build
 .PHONY : counter/fast
 
+Calculators/CommenCalculator.obj: Calculators/CommenCalculator.cpp.obj
+.PHONY : Calculators/CommenCalculator.obj
+
+# target to build an object file
+Calculators/CommenCalculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.obj
+.PHONY : Calculators/CommenCalculator.cpp.obj
+
+Calculators/CommenCalculator.i: Calculators/CommenCalculator.cpp.i
+.PHONY : Calculators/CommenCalculator.i
+
+# target to preprocess a source file
+Calculators/CommenCalculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.i
+.PHONY : Calculators/CommenCalculator.cpp.i
+
+Calculators/CommenCalculator.s: Calculators/CommenCalculator.cpp.s
+.PHONY : Calculators/CommenCalculator.s
+
+# target to generate assembly for a file
+Calculators/CommenCalculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.s
+.PHONY : Calculators/CommenCalculator.cpp.s
+
+Calculators/FunCalculator.obj: Calculators/FunCalculator.cpp.obj
+.PHONY : Calculators/FunCalculator.obj
+
+# target to build an object file
+Calculators/FunCalculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj
+.PHONY : Calculators/FunCalculator.cpp.obj
+
+Calculators/FunCalculator.i: Calculators/FunCalculator.cpp.i
+.PHONY : Calculators/FunCalculator.i
+
+# target to preprocess a source file
+Calculators/FunCalculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.i
+.PHONY : Calculators/FunCalculator.cpp.i
+
+Calculators/FunCalculator.s: Calculators/FunCalculator.cpp.s
+.PHONY : Calculators/FunCalculator.s
+
+# target to generate assembly for a file
+Calculators/FunCalculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.s
+.PHONY : Calculators/FunCalculator.cpp.s
+
+Calculators/VarCalculator.obj: Calculators/VarCalculator.cpp.obj
+.PHONY : Calculators/VarCalculator.obj
+
+# target to build an object file
+Calculators/VarCalculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.obj
+.PHONY : Calculators/VarCalculator.cpp.obj
+
+Calculators/VarCalculator.i: Calculators/VarCalculator.cpp.i
+.PHONY : Calculators/VarCalculator.i
+
+# target to preprocess a source file
+Calculators/VarCalculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.i
+.PHONY : Calculators/VarCalculator.cpp.i
+
+Calculators/VarCalculator.s: Calculators/VarCalculator.cpp.s
+.PHONY : Calculators/VarCalculator.s
+
+# target to generate assembly for a file
+Calculators/VarCalculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.s
+.PHONY : Calculators/VarCalculator.cpp.s
+
+Errors/Error.obj: Errors/Error.cpp.obj
+.PHONY : Errors/Error.obj
+
+# target to build an object file
+Errors/Error.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Errors/Error.cpp.obj
+.PHONY : Errors/Error.cpp.obj
+
+Errors/Error.i: Errors/Error.cpp.i
+.PHONY : Errors/Error.i
+
+# target to preprocess a source file
+Errors/Error.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Errors/Error.cpp.i
+.PHONY : Errors/Error.cpp.i
+
+Errors/Error.s: Errors/Error.cpp.s
+.PHONY : Errors/Error.s
+
+# target to generate assembly for a file
+Errors/Error.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Errors/Error.cpp.s
+.PHONY : Errors/Error.cpp.s
+
+Parses/InputParse.obj: Parses/InputParse.cpp.obj
+.PHONY : Parses/InputParse.obj
+
+# target to build an object file
+Parses/InputParse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Parses/InputParse.cpp.obj
+.PHONY : Parses/InputParse.cpp.obj
+
+Parses/InputParse.i: Parses/InputParse.cpp.i
+.PHONY : Parses/InputParse.i
+
+# target to preprocess a source file
+Parses/InputParse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Parses/InputParse.cpp.i
+.PHONY : Parses/InputParse.cpp.i
+
+Parses/InputParse.s: Parses/InputParse.cpp.s
+.PHONY : Parses/InputParse.s
+
+# target to generate assembly for a file
+Parses/InputParse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Parses/InputParse.cpp.s
+.PHONY : Parses/InputParse.cpp.s
+
+Parses/TypeParse.obj: Parses/TypeParse.cpp.obj
+.PHONY : Parses/TypeParse.obj
+
+# target to build an object file
+Parses/TypeParse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Parses/TypeParse.cpp.obj
+.PHONY : Parses/TypeParse.cpp.obj
+
+Parses/TypeParse.i: Parses/TypeParse.cpp.i
+.PHONY : Parses/TypeParse.i
+
+# target to preprocess a source file
+Parses/TypeParse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Parses/TypeParse.cpp.i
+.PHONY : Parses/TypeParse.cpp.i
+
+Parses/TypeParse.s: Parses/TypeParse.cpp.s
+.PHONY : Parses/TypeParse.s
+
+# target to generate assembly for a file
+Parses/TypeParse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Parses/TypeParse.cpp.s
+.PHONY : Parses/TypeParse.cpp.s
+
+Reader/InputReader.obj: Reader/InputReader.cpp.obj
+.PHONY : Reader/InputReader.obj
+
+# target to build an object file
+Reader/InputReader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Reader/InputReader.cpp.obj
+.PHONY : Reader/InputReader.cpp.obj
+
+Reader/InputReader.i: Reader/InputReader.cpp.i
+.PHONY : Reader/InputReader.i
+
+# target to preprocess a source file
+Reader/InputReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Reader/InputReader.cpp.i
+.PHONY : Reader/InputReader.cpp.i
+
+Reader/InputReader.s: Reader/InputReader.cpp.s
+.PHONY : Reader/InputReader.s
+
+# target to generate assembly for a file
+Reader/InputReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Reader/InputReader.cpp.s
+.PHONY : Reader/InputReader.cpp.s
+
+Tokens/Token.obj: Tokens/Token.cpp.obj
+.PHONY : Tokens/Token.obj
+
+# target to build an object file
+Tokens/Token.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Tokens/Token.cpp.obj
+.PHONY : Tokens/Token.cpp.obj
+
+Tokens/Token.i: Tokens/Token.cpp.i
+.PHONY : Tokens/Token.i
+
+# target to preprocess a source file
+Tokens/Token.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Tokens/Token.cpp.i
+.PHONY : Tokens/Token.cpp.i
+
+Tokens/Token.s: Tokens/Token.cpp.s
+.PHONY : Tokens/Token.s
+
+# target to generate assembly for a file
+Tokens/Token.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\counter.dir\build.make CMakeFiles/counter.dir/Tokens/Token.cpp.s
+.PHONY : Tokens/Token.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +353,30 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... counter
+	@echo ... Calculators/CommenCalculator.obj
+	@echo ... Calculators/CommenCalculator.i
+	@echo ... Calculators/CommenCalculator.s
+	@echo ... Calculators/FunCalculator.obj
+	@echo ... Calculators/FunCalculator.i
+	@echo ... Calculators/FunCalculator.s
+	@echo ... Calculators/VarCalculator.obj
+	@echo ... Calculators/VarCalculator.i
+	@echo ... Calculators/VarCalculator.s
+	@echo ... Errors/Error.obj
+	@echo ... Errors/Error.i
+	@echo ... Errors/Error.s
+	@echo ... Parses/InputParse.obj
+	@echo ... Parses/InputParse.i
+	@echo ... Parses/InputParse.s
+	@echo ... Parses/TypeParse.obj
+	@echo ... Parses/TypeParse.i
+	@echo ... Parses/TypeParse.s
+	@echo ... Reader/InputReader.obj
+	@echo ... Reader/InputReader.i
+	@echo ... Reader/InputReader.s
+	@echo ... Tokens/Token.obj
+	@echo ... Tokens/Token.i
+	@echo ... Tokens/Token.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
