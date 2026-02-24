@@ -8,6 +8,7 @@
 #include "../Errors/Errors.h"
 
 std::vector<std::pair<Token, std::string>> InputParse(std::string input);
-std::pair<Token, std::string> TypeParse(const std::vector<std::pair<Token, std::string>> input, const std::map<std::string, double>& variables);
+std::pair<Token, std::string> TypeParse(const std::vector<std::pair<Token, std::string>> input, 
+                                        const std::map<std::string, double>& variables);
 
 #endif

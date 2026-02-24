@@ -28,6 +28,31 @@ std::vector<std::pair<Token, std::string>> InputParse(std::string input)
             token_input.push_back({TAN, "tan"});
             input.erase(0, 3);
         }
+        else if (input.substr(0, 4) == "sqrt")
+        {
+            token_input.push_back({SQRT, "sqrt"});
+            input.erase(0, 4);
+        }
+        else if (input.substr(0, 3) == "abs")
+        {
+            token_input.push_back({ABS, "abs"});
+            input.erase(0, 3);
+        }
+        else if (input.substr(0, 3) == "log")
+        {
+            token_input.push_back({LOG, "log"});
+            input.erase(0, 3);
+        }
+        else if (input.substr(0, 2) == "ln")
+        {
+            token_input.push_back({LN, "ln"});
+            input.erase(0, 2);
+        }
+        else if (input.substr(0, 3) == "exp")
+        {
+            token_input.push_back({EXP, "exp"});
+            input.erase(0, 3);
+        }
         else if (input.substr(0, 3) == "fun")
         {
             token_input.push_back({FUN, "fun"});

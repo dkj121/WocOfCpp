@@ -58,7 +58,6 @@ std::vector<std::pair<Token, std::string>> FoldFunctionCalls(
             return {};
         }
 
-        // 取参数 tokens: (i+2) .. (j-1)
         std::vector<std::pair<Token, std::string>> argTokens;
         for (size_t k = i + 2; k < j; ++k) argTokens.push_back(input[k]);
         argTokens.push_back({END, "END"});

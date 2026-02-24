@@ -16,6 +16,7 @@ CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.obj: E:/VScode_Programs/
   E:/gcc/mingw64/include/c++/15.2.0/bits/cpp_type_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/cxxabi_forced.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/deque.tcc \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/erase_if.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/exception.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/exception_defines.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/functexcept.h \
@@ -27,6 +28,7 @@ CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.obj: E:/VScode_Programs/
   E:/gcc/mingw64/include/c++/15.2.0/bits/memoryfwd.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/move.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/new_allocator.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/node_handle.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/ostream_insert.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/postypes.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/predefined_ops.h \
@@ -44,8 +46,11 @@ CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.obj: E:/VScode_Programs/
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_map.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_pair.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_stack.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_tree.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_vector.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/string_view.tcc \
@@ -67,6 +72,7 @@ CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.obj: E:/VScode_Programs/
   E:/gcc/mingw64/include/c++/15.2.0/debug/assertions.h \
   E:/gcc/mingw64/include/c++/15.2.0/debug/debug.h \
   E:/gcc/mingw64/include/c++/15.2.0/deque \
+  E:/gcc/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/alloc_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/numeric_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/string_conversions.h \
@@ -74,6 +80,7 @@ CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.obj: E:/VScode_Programs/
   E:/gcc/mingw64/include/c++/15.2.0/initializer_list \
   E:/gcc/mingw64/include/c++/15.2.0/iosfwd \
   E:/gcc/mingw64/include/c++/15.2.0/limits \
+  E:/gcc/mingw64/include/c++/15.2.0/map \
   E:/gcc/mingw64/include/c++/15.2.0/new \
   E:/gcc/mingw64/include/c++/15.2.0/pstl/pstl_config.h \
   E:/gcc/mingw64/include/c++/15.2.0/stack \
@@ -132,7 +139,7 @@ CMakeFiles/counter.dir/Calculators/CommenCalculator.cpp.obj: E:/VScode_Programs/
   E:/gcc/mingw64/x86_64-w64-mingw32/include/wchar.h \
   E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Calculators/Calculators.h
 
-CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj: E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Calculators/FunCalculator.cpp \
+CMakeFiles/counter.dir/Calculators/FoldFunctionCalls.cpp.obj: E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Calculators/FoldFunctionCalls.cpp \
   E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Errors/Errors.h \
   E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Tokens/Tokens.h \
   E:/gcc/mingw64/include/c++/15.2.0/backward/binders.h \
@@ -146,6 +153,7 @@ CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj: E:/VScode_Programs/lea
   E:/gcc/mingw64/include/c++/15.2.0/bits/concept_check.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/cpp_type_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/cxxabi_forced.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/erase_if.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/exception.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/exception_defines.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/functexcept.h \
@@ -157,6 +165,7 @@ CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj: E:/VScode_Programs/lea
   E:/gcc/mingw64/include/c++/15.2.0/bits/memoryfwd.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/move.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/new_allocator.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/node_handle.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/ostream_insert.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/postypes.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/predefined_ops.h \
@@ -172,7 +181,10 @@ CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj: E:/VScode_Programs/lea
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_map.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_pair.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_tree.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_vector.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/string_view.tcc \
@@ -192,12 +204,131 @@ CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj: E:/VScode_Programs/lea
   E:/gcc/mingw64/include/c++/15.2.0/cwchar \
   E:/gcc/mingw64/include/c++/15.2.0/debug/assertions.h \
   E:/gcc/mingw64/include/c++/15.2.0/debug/debug.h \
+  E:/gcc/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/alloc_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/numeric_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/string_conversions.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/type_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/initializer_list \
   E:/gcc/mingw64/include/c++/15.2.0/iosfwd \
+  E:/gcc/mingw64/include/c++/15.2.0/map \
+  E:/gcc/mingw64/include/c++/15.2.0/new \
+  E:/gcc/mingw64/include/c++/15.2.0/pstl/pstl_config.h \
+  E:/gcc/mingw64/include/c++/15.2.0/stdlib.h \
+  E:/gcc/mingw64/include/c++/15.2.0/string \
+  E:/gcc/mingw64/include/c++/15.2.0/string_view \
+  E:/gcc/mingw64/include/c++/15.2.0/tuple \
+  E:/gcc/mingw64/include/c++/15.2.0/type_traits \
+  E:/gcc/mingw64/include/c++/15.2.0/vector \
+  E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++locale.h \
+  E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/corecrt_wctype.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/errno.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/limits.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/locale.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  E:/gcc/mingw64/x86_64-w64-mingw32/include/wchar.h \
+  E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Calculators/Calculators.h
+
+CMakeFiles/counter.dir/Calculators/FunCalculator.cpp.obj: E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Calculators/FunCalculator.cpp \
+  E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Errors/Errors.h \
+  E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Tokens/Tokens.h \
+  E:/gcc/mingw64/include/c++/15.2.0/backward/binders.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bit \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/alloc_traits.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/allocator.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/basic_string.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/basic_string.tcc \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/char_traits.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/charconv.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/concept_check.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/cpp_type_traits.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/cxxabi_forced.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/erase_if.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/exception.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/exception_defines.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/functexcept.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/functional_hash.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/hash_bytes.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/invoke.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/localefwd.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/memory_resource.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/memoryfwd.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/move.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/new_allocator.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/node_handle.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/ostream_insert.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/postypes.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/predefined_ops.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/ptr_traits.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/range_access.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/refwrap.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/std_abs.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_algobase.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_construct.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_function.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_map.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_pair.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_tree.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_vector.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/string_view.tcc \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stringfwd.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/uses_allocator.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/utility.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/vector.tcc \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/version.h \
+  E:/gcc/mingw64/include/c++/15.2.0/cctype \
+  E:/gcc/mingw64/include/c++/15.2.0/cerrno \
+  E:/gcc/mingw64/include/c++/15.2.0/clocale \
+  E:/gcc/mingw64/include/c++/15.2.0/concepts \
+  E:/gcc/mingw64/include/c++/15.2.0/cstddef \
+  E:/gcc/mingw64/include/c++/15.2.0/cstdio \
+  E:/gcc/mingw64/include/c++/15.2.0/cstdlib \
+  E:/gcc/mingw64/include/c++/15.2.0/cwchar \
+  E:/gcc/mingw64/include/c++/15.2.0/debug/assertions.h \
+  E:/gcc/mingw64/include/c++/15.2.0/debug/debug.h \
+  E:/gcc/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \
+  E:/gcc/mingw64/include/c++/15.2.0/ext/alloc_traits.h \
+  E:/gcc/mingw64/include/c++/15.2.0/ext/numeric_traits.h \
+  E:/gcc/mingw64/include/c++/15.2.0/ext/string_conversions.h \
+  E:/gcc/mingw64/include/c++/15.2.0/ext/type_traits.h \
+  E:/gcc/mingw64/include/c++/15.2.0/initializer_list \
+  E:/gcc/mingw64/include/c++/15.2.0/iosfwd \
+  E:/gcc/mingw64/include/c++/15.2.0/map \
   E:/gcc/mingw64/include/c++/15.2.0/new \
   E:/gcc/mingw64/include/c++/15.2.0/pstl/pstl_config.h \
   E:/gcc/mingw64/include/c++/15.2.0/stdlib.h \
@@ -256,6 +387,7 @@ CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.obj: E:/VScode_Programs/lea
   E:/gcc/mingw64/include/c++/15.2.0/bits/concept_check.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/cpp_type_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/cxxabi_forced.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/erase_if.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/exception.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/exception_defines.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/functexcept.h \
@@ -267,6 +399,7 @@ CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.obj: E:/VScode_Programs/lea
   E:/gcc/mingw64/include/c++/15.2.0/bits/memoryfwd.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/move.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/new_allocator.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/node_handle.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/ostream_insert.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/postypes.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/predefined_ops.h \
@@ -282,7 +415,10 @@ CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.obj: E:/VScode_Programs/lea
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_map.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_pair.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_tree.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_vector.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/string_view.tcc \
@@ -302,12 +438,14 @@ CMakeFiles/counter.dir/Calculators/VarCalculator.cpp.obj: E:/VScode_Programs/lea
   E:/gcc/mingw64/include/c++/15.2.0/cwchar \
   E:/gcc/mingw64/include/c++/15.2.0/debug/assertions.h \
   E:/gcc/mingw64/include/c++/15.2.0/debug/debug.h \
+  E:/gcc/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/alloc_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/numeric_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/string_conversions.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/type_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/initializer_list \
   E:/gcc/mingw64/include/c++/15.2.0/iosfwd \
+  E:/gcc/mingw64/include/c++/15.2.0/map \
   E:/gcc/mingw64/include/c++/15.2.0/new \
   E:/gcc/mingw64/include/c++/15.2.0/pstl/pstl_config.h \
   E:/gcc/mingw64/include/c++/15.2.0/stdlib.h \
@@ -469,6 +607,7 @@ CMakeFiles/counter.dir/Parses/InputParse.cpp.obj: E:/VScode_Programs/learning/Co
   E:/gcc/mingw64/include/c++/15.2.0/bits/concept_check.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/cpp_type_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/cxxabi_forced.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/erase_if.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/exception.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/exception_defines.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/functexcept.h \
@@ -480,6 +619,7 @@ CMakeFiles/counter.dir/Parses/InputParse.cpp.obj: E:/VScode_Programs/learning/Co
   E:/gcc/mingw64/include/c++/15.2.0/bits/memoryfwd.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/move.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/new_allocator.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/node_handle.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/ostream_insert.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/postypes.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/predefined_ops.h \
@@ -495,7 +635,10 @@ CMakeFiles/counter.dir/Parses/InputParse.cpp.obj: E:/VScode_Programs/learning/Co
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_map.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_pair.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_tree.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_vector.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/string_view.tcc \
@@ -515,12 +658,14 @@ CMakeFiles/counter.dir/Parses/InputParse.cpp.obj: E:/VScode_Programs/learning/Co
   E:/gcc/mingw64/include/c++/15.2.0/cwchar \
   E:/gcc/mingw64/include/c++/15.2.0/debug/assertions.h \
   E:/gcc/mingw64/include/c++/15.2.0/debug/debug.h \
+  E:/gcc/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/alloc_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/numeric_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/string_conversions.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/type_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/initializer_list \
   E:/gcc/mingw64/include/c++/15.2.0/iosfwd \
+  E:/gcc/mingw64/include/c++/15.2.0/map \
   E:/gcc/mingw64/include/c++/15.2.0/new \
   E:/gcc/mingw64/include/c++/15.2.0/pstl/pstl_config.h \
   E:/gcc/mingw64/include/c++/15.2.0/stdlib.h \
@@ -579,6 +724,7 @@ CMakeFiles/counter.dir/Parses/TypeParse.cpp.obj: E:/VScode_Programs/learning/Cor
   E:/gcc/mingw64/include/c++/15.2.0/bits/concept_check.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/cpp_type_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/cxxabi_forced.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/erase_if.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/exception.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/exception_defines.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/functexcept.h \
@@ -590,6 +736,7 @@ CMakeFiles/counter.dir/Parses/TypeParse.cpp.obj: E:/VScode_Programs/learning/Cor
   E:/gcc/mingw64/include/c++/15.2.0/bits/memoryfwd.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/move.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/new_allocator.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/node_handle.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/ostream_insert.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/postypes.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/predefined_ops.h \
@@ -605,7 +752,10 @@ CMakeFiles/counter.dir/Parses/TypeParse.cpp.obj: E:/VScode_Programs/learning/Cor
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_map.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_pair.h \
+  E:/gcc/mingw64/include/c++/15.2.0/bits/stl_tree.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/stl_vector.h \
   E:/gcc/mingw64/include/c++/15.2.0/bits/string_view.tcc \
@@ -625,12 +775,14 @@ CMakeFiles/counter.dir/Parses/TypeParse.cpp.obj: E:/VScode_Programs/learning/Cor
   E:/gcc/mingw64/include/c++/15.2.0/cwchar \
   E:/gcc/mingw64/include/c++/15.2.0/debug/assertions.h \
   E:/gcc/mingw64/include/c++/15.2.0/debug/debug.h \
+  E:/gcc/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/alloc_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/numeric_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/string_conversions.h \
   E:/gcc/mingw64/include/c++/15.2.0/ext/type_traits.h \
   E:/gcc/mingw64/include/c++/15.2.0/initializer_list \
   E:/gcc/mingw64/include/c++/15.2.0/iosfwd \
+  E:/gcc/mingw64/include/c++/15.2.0/map \
   E:/gcc/mingw64/include/c++/15.2.0/new \
   E:/gcc/mingw64/include/c++/15.2.0/pstl/pstl_config.h \
   E:/gcc/mingw64/include/c++/15.2.0/stdlib.h \
@@ -1052,13 +1204,13 @@ CMakeFiles/counter.dir/main.cpp.obj: E:/VScode_Programs/learning/CorCppLearning/
 
 E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Calculators/CommenCalculator.cpp:
 
+E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Calculators/FoldFunctionCalls.cpp:
+
 E:/gcc/mingw64/include/c++/15.2.0/concepts:
 
 E:/gcc/mingw64/include/c++/15.2.0/backward/binders.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/new_allocator.h:
-
-E:/gcc/mingw64/include/c++/15.2.0/cstdlib:
 
 E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Reader/Reader.h:
 
@@ -1074,9 +1226,9 @@ E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Token
 
 E:/gcc/mingw64/include/c++/15.2.0/bit:
 
-E:/gcc/mingw64/include/c++/15.2.0/bits/stl_multimap.h:
-
 E:/gcc/mingw64/include/c++/15.2.0/bits/alloc_traits.h:
+
+E:/gcc/mingw64/include/c++/15.2.0/bits/stl_multimap.h:
 
 E:/gcc/mingw64/x86_64-w64-mingw32/include/stdio.h:
 
@@ -1126,10 +1278,6 @@ E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++locale.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/concept_check.h:
 
-E:/gcc/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
-
-E:/gcc/mingw64/include/c++/15.2.0/cstdio:
-
 E:/gcc/mingw64/include/c++/15.2.0/bits/streambuf.tcc:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/cxxabi_forced.h:
@@ -1137,6 +1285,10 @@ E:/gcc/mingw64/include/c++/15.2.0/bits/cxxabi_forced.h:
 E:/gcc/mingw64/include/c++/15.2.0/tr1/modified_bessel_func.tcc:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/deque.tcc:
+
+E:/gcc/mingw64/include/c++/15.2.0/bits/std_abs.h:
+
+E:/gcc/mingw64/include/c++/15.2.0/bits/erase_if.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/exception.h:
 
@@ -1166,15 +1318,19 @@ E:/gcc/mingw64/include/c++/15.2.0/bits/localefwd.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/memory_resource.h:
 
-E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Errors/Error.cpp:
-
-E:/gcc/mingw64/include/c++/15.2.0/cstddef:
-
 E:/gcc/mingw64/include/c++/15.2.0/bits/memoryfwd.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/stl_bvector.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/move.h:
+
+E:/gcc/mingw64/include/c++/15.2.0/bits/vector.tcc:
+
+E:/gcc/mingw64/include/c++/15.2.0/cwchar:
+
+E:/gcc/mingw64/include/c++/15.2.0/bits/stl_construct.h:
+
+E:/gcc/mingw64/include/c++/15.2.0/bits/node_handle.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/string_view.tcc:
 
@@ -1188,15 +1344,11 @@ E:/gcc/mingw64/include/c++/15.2.0/bits/ptr_traits.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/refwrap.h:
 
+E:/gcc/mingw64/x86_64-w64-mingw32/include/errno.h:
+
+E:/gcc/mingw64/include/c++/15.2.0/bits/stl_tree.h:
+
 E:/gcc/mingw64/include/c++/15.2.0/bits/specfun.h:
-
-E:/gcc/mingw64/include/c++/15.2.0/bits/std_abs.h:
-
-E:/gcc/mingw64/include/c++/15.2.0/bits/stl_construct.h:
-
-E:/gcc/mingw64/include/c++/15.2.0/cwchar:
-
-E:/gcc/mingw64/include/c++/15.2.0/bits/vector.tcc:
 
 E:/gcc/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
 
@@ -1210,6 +1362,8 @@ E:/gcc/mingw64/include/c++/15.2.0/ext/numeric_traits.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h:
 
+E:/gcc/mingw64/include/c++/15.2.0/bits/stl_map.h:
+
 E:/gcc/mingw64/include/c++/15.2.0/bits/stl_stack.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/ios_base.h:
@@ -1222,11 +1376,23 @@ E:/gcc/mingw64/include/c++/15.2.0/cctype:
 
 E:/gcc/mingw64/include/c++/15.2.0/clocale:
 
+E:/VScode_Programs/learning/CorCppLearning/WocOfCpp/ElementaryPart/counter/Errors/Error.cpp:
+
+E:/gcc/mingw64/include/c++/15.2.0/cstddef:
+
+E:/gcc/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
+
+E:/gcc/mingw64/include/c++/15.2.0/cstdio:
+
+E:/gcc/mingw64/include/c++/15.2.0/cstdlib:
+
 E:/gcc/mingw64/include/c++/15.2.0/debug/assertions.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/debug/debug.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/deque:
+
+E:/gcc/mingw64/include/c++/15.2.0/ext/aligned_buffer.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/ext/string_conversions.h:
 
@@ -1237,6 +1403,8 @@ E:/gcc/mingw64/include/c++/15.2.0/ext/type_traits.h:
 E:/gcc/mingw64/include/c++/15.2.0/initializer_list:
 
 E:/gcc/mingw64/include/c++/15.2.0/limits:
+
+E:/gcc/mingw64/include/c++/15.2.0/map:
 
 E:/gcc/mingw64/x86_64-w64-mingw32/include/sys/types.h:
 
@@ -1320,10 +1488,6 @@ E:/gcc/mingw64/x86_64-w64-mingw32/include/crtdefs.h:
 
 E:/gcc/mingw64/x86_64-w64-mingw32/include/ctype.h:
 
-E:/gcc/mingw64/include/c++/15.2.0/bits/stl_tree.h:
-
-E:/gcc/mingw64/x86_64-w64-mingw32/include/errno.h:
-
 E:/gcc/mingw64/x86_64-w64-mingw32/include/limits.h:
 
 E:/gcc/mingw64/x86_64-w64-mingw32/include/locale.h:
@@ -1364,29 +1528,21 @@ E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/error_constants.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/cxxabi_init_exception.h:
 
-E:/gcc/mingw64/include/c++/15.2.0/bits/erase_if.h:
-
 E:/gcc/mingw64/include/c++/15.2.0/bits/istream.tcc:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/locale_classes.tcc:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/nested_exception.h:
 
-E:/gcc/mingw64/include/c++/15.2.0/bits/node_handle.h:
-
 E:/gcc/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_base.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/ostream.tcc:
-
-E:/gcc/mingw64/include/c++/15.2.0/bits/stl_map.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/bits/streambuf_iterator.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/cwctype:
 
 E:/gcc/mingw64/include/c++/15.2.0/exception:
-
-E:/gcc/mingw64/include/c++/15.2.0/ext/aligned_buffer.h:
 
 E:/gcc/mingw64/include/c++/15.2.0/ext/atomicity.h:
 
@@ -1395,8 +1551,6 @@ E:/gcc/mingw64/include/c++/15.2.0/ios:
 E:/gcc/mingw64/include/c++/15.2.0/iostream:
 
 E:/gcc/mingw64/include/c++/15.2.0/istream:
-
-E:/gcc/mingw64/include/c++/15.2.0/map:
 
 E:/gcc/mingw64/include/c++/15.2.0/ostream:
 

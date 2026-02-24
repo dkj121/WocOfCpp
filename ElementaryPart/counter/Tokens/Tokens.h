@@ -21,7 +21,7 @@ enum Token
     
     SQUA,
 
-    SIN, COS, TAN, LPARE, RPARE,
+    SIN, COS, TAN, SQRT, ABS, LOG, LN, EXP, LPARE, RPARE,
     
     NUL, NUM,
 

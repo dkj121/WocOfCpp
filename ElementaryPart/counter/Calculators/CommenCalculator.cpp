@@ -2,6 +2,10 @@
 Example : 1 + 2 * 3 => 7
 Compare Example : 1 == 1.1 => 0 / 2 > 1 => 1
 
+For namespace details, it is just an implementation detail and not intended to be used outside this file, so I didn't put it in the header.
+If you want to use it outside, you can move it to the header and remove the namespace details.
+For CommenCalculate, it is the main function that will be called by the caller, 
+and it will call the other functions in the namespace to do the actual calculation.
 Most of the code was code by ChatGPT actually
 */
 #include <cmath>
@@ -22,7 +26,7 @@ namespace
 
     struct OpInfo { int prec; bool rightAssoc; int arity; };
 
-    static bool isFunc(Token t) { return t == SIN || t == COS || t == TAN; }
+    static bool isFunc(Token t) { return t == SIN || t == COS || t == TAN || t == SQRT || t == ABS || t == LOG || t == LN || t == EXP; }
     static bool isValue(Token t) { return t == NUM; }
     static bool isUnaryTok(Token t) { return t == BANG; }
 
@@ -98,7 +102,7 @@ namespace
                       const std::map<std::string, double>& /*variables*/,
                       Error& err)
     {
-        // function: sin/cos/tan
+        // function: sin/cos/tan/sqrt/abs/log/ln/exp
         if (op.kind == OpKind::Tok && isFunc(op.tok))
         {
             double a;
@@ -108,6 +112,20 @@ namespace
                 case SIN: st.push(std::sin(a)); return true;
                 case COS: st.push(std::cos(a)); return true;
                 case TAN: st.push(std::tan(a)); return true;
+                case SQRT:
+                    if (a < -1e-12) { err = ERROR_INVALID_ARGUMENT; return false; }
+                    st.push(std::sqrt(a));
+                    return true;
+                case ABS: st.push(std::fabs(a)); return true;
+                case LOG:
+                    if (a < 1e-12) { err = ERROR_INVALID_ARGUMENT; return false; }
+                    st.push(std::log10(a));
+                    return true;
+                case LN:
+                    if (a < 1e-12) { err = ERROR_INVALID_ARGUMENT; return false; }
+                    st.push(std::log(a));
+                    return true;
+                case EXP: st.push(std::exp(a)); return true;
                 default: err = ERROR_UNKNOWN_ERROR; return false;
             }
         }
