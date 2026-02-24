@@ -10,19 +10,23 @@
 int main(int argc, char** argv)
 {
     static std::map<std::string, double> variables;
-    static std::vector<std::pair<Token, std::string>> function; // only one function allowed, stored as tokens for easy substitution; empty if no function defined
-
+    // only one function allowed, stored as tokens for easy substitution; empty if no function defined
+    static std::vector<std::pair<Token, std::string>> function; 
     while(true)
     {
-        std::string input_string = InputReader();
-        std::vector<std::pair<Token, std::string>> input_tokens = InputParse(input_string);
+        std::string input_string = InputReader();  // read input from user as a string
+        // from string to tokens, also checks for syntax errors and returns an empty vector if any are found
+        std::vector<std::pair<Token, std::string>> input_tokens = InputParse(input_string); 
         if (input_tokens.empty())
         {
             continue;
         }
-
-        std::pair<Token, std::string> type = TypeParse(input_tokens, variables);
-
+/*
+    determine if the input is a function definition, variable definition, or calculation;
+    also checks for errors like undefined variables and returns UNKNOWN if any are found
+*/      
+        std::pair<Token, std::string> type = TypeParse(input_tokens, variables); 
+        // calculate and print the result, or print an error message if any errors are found
         if (type.first == FUNDEF)
         {
             function = DefineFunction(input_tokens);

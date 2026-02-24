@@ -3,9 +3,10 @@
 
 #include <string>
 
+// define some constants
 const double e = 2.71828182845904523536;
 const double pi = 3.14159265358979323846;
-
+// define the token types
 enum Token
 {
     OR, AND,
@@ -31,7 +32,7 @@ enum Token
 
     UNKNOWN, END
 };
-
+// get the value of a number token
 double getNum (std::string s);
 
 #endif

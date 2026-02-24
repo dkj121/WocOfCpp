@@ -3,6 +3,7 @@
 
 #include <string>
 
+// Error Definitions for the Counter project
 enum Error
 {
     NO_ERROR,                       // No error occurred
@@ -16,7 +17,7 @@ enum Error
     ERROR_MISSING_PARENTHESIS,      // Missing closing parenthesis
     ERROR_UNKNOWN_ERROR             // Catch-all for any other errors
 };
-
+// From Error enum to human-readable error message
 std::string GetErrorMessage(Error error);   // Function to get a human-readable error message for a given error code
 
 #endif
