@@ -1,0 +1,16 @@
+--bare
+-I
+E:/Code_Programs/learning/CorCppLearning/WocOfCpp/AdvancedPart/snake/snake/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug
+-I
+E:/Code_Programs/learning/CorCppLearning/WocOfCpp/AdvancedPart/snake/snake/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/snake
+-I
+E:/Code_Programs/learning/CorCppLearning/WocOfCpp/AdvancedPart/snake/snake/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug
+-I
+E:/Qt/6.10.2/msvc2022_64/qml
+--resource
+E:/Code_Programs/learning/CorCppLearning/WocOfCpp/AdvancedPart/snake/snake/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.qt/rcc/qmake_snake.qrc
+--resource
+E:/Code_Programs/learning/CorCppLearning/WocOfCpp/AdvancedPart/snake/snake/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/.qt/rcc/appsnake_raw_qml_0.qrc
+E:/Code_Programs/learning/CorCppLearning/WocOfCpp/AdvancedPart/snake/snake/Main.qml
+--json
+E:/Code_Programs/learning/CorCppLearning/WocOfCpp/AdvancedPart/snake/snake/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/appsnake_qmllint.json
