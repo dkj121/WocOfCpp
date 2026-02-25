@@ -2,8 +2,8 @@
 Example : 1 + 2 * 3 => 7
 Compare Example : 1 == 1.1 => 0 / 2 > 1 => 1
 
-For namespace details, it is just an implementation detail and not intended to be used outside this file, so I didn't put it in the header.
-If you want to use it outside, you can move it to the header and remove the namespace details.
+For the namespace it is used to encapsulate the functions that are used to calculate the result of the expression.
+The main function is CommenCalculate, which takes the input expression in the form of a vector
 For CommenCalculate, it is the main function that will be called by the caller, 
 and it will call the other functions in the namespace to do the actual calculation.
 Most of the code was code by ChatGPT actually
@@ -14,16 +14,20 @@ Most of the code was code by ChatGPT actually
 
 namespace
 {
+     // Tok for normal tokens, Neg for unary minus (to distinguish from binary minus)
     enum class OpKind { Tok, Neg };
 
     struct Op
     {
         OpKind kind;
         Token tok;
+
+        // if it is common token, tok is the token; if it is unary minus, tok is NUL
         static Op fromTok(Token t) { return {OpKind::Tok, t}; }
         static Op neg() { return {OpKind::Neg, NUL}; }
     };
 
+    // OpInfo contains the precedence, associativity and arity of an operator
     struct OpInfo { int prec; bool rightAssoc; int arity; };
 
     static bool isFunc(Token t) { return t == SIN || t == COS || t == TAN || t == SQRT || t == ABS || t == LOG || t == LN || t == EXP; }
@@ -74,6 +78,8 @@ namespace
         return {0, false, 0};
     }
 
+    // isTruthy considers any number with absolute value less than 1e-12 as false,
+    // and others as true as the number less than 1e-12 is considered as zero in the context of this calculator, it is reasonable to treat them as false
     static bool isTruthy(double x) { return std::fabs(x) > 1e-12; }
 
     static std::string toStr(double x)
@@ -82,6 +88,8 @@ namespace
         return std::to_string(x);
     }
 
+    // pop1 pops one value from the stack and stores it in a;
+    // returns false if the stack is empty
     static bool pop1(std::stack<double>& st, double& a)
     {
         if (st.empty()) return false;
@@ -89,6 +97,8 @@ namespace
         return true;
     }
 
+    // pop2 pops two values from the stack and stores them in a and b (b is the top, a is the second top); 
+    // returns false if the stack has less than 2 values
     static bool pop2(std::stack<double>& st, double& a, double& b)
     {
         if (st.size() < 2) return false;
@@ -97,9 +107,10 @@ namespace
         return true;
     }
 
+    // apply applies the operator op to the top values on the stack st,
+    // using function and variables for function calls and variable lookups;
+    // returns false if there is an error
     static bool apply(const Op& op, std::stack<double>& st,
-                      const std::vector<std::pair<Token, std::string>>& /*function*/,
-                      const std::map<std::string, double>& /*variables*/,
                       Error& err)
     {
         // function: sin/cos/tan/sqrt/abs/log/ln/exp
@@ -189,7 +200,9 @@ namespace
                 return false;
         }
     }
-
+    
+    // operandLike returns true if the token can be an operand (number, variable or closing parenthesis), 
+    // which is used to determine if a minus sign is unary or binary
     static bool operandLike(Token t)
     {
         return t == NUM || t == RPARE || t == PARAM;
@@ -203,6 +216,7 @@ std::string CommenCalculate(const std::vector<std::pair<Token, std::string>> inp
     if (input.empty())
         return GetErrorMessage(ERROR_EMPTY_INPUT);
 
+    // store the output of the shunting yard algorithm before evaluation
     struct Rpn
     {
         bool isNum;
@@ -214,7 +228,7 @@ std::string CommenCalculate(const std::vector<std::pair<Token, std::string>> inp
 
     std::vector<Rpn> out;
     std::stack<Op> ops;
-
+    
     auto popByPrec = [&](const Op& cur)
     {
         OpInfo curi = info(cur);
@@ -239,6 +253,7 @@ std::string CommenCalculate(const std::vector<std::pair<Token, std::string>> inp
     bool hasPrev = false;
     bool sawAnyToken = false;
 
+    // check errors and convert to RPN using the shunting yard algorithm
     for (size_t i = 0; i < input.size(); ++i)
     {
         Token t = input[i].first;
@@ -369,7 +384,7 @@ std::string CommenCalculate(const std::vector<std::pair<Token, std::string>> inp
         }
 
         Error err = ERROR_UNKNOWN_ERROR;
-        if (!apply(it.op, st, function, variables, err))
+        if (!apply(it.op, st, err))
             return GetErrorMessage(err);
     }
 

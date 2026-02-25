@@ -1,6 +1,5 @@
 /*
 Manage function calls in the input expression. 
-This is done by finding the function call, evaluating its argument, and replacing the function call with the result of the function evaluation. The function definition is provided in the `function` parameter, and the variables are provided in the `variables` parameter. The function call is expected to be in the form `f(x)`, where `f` is the function name and `x` is the argument. The argument can be any valid expression that does not contain another function call. 
 The result of the function evaluation is then inserted back into the input expression as a number token.
 Most of the code was code by ChatGPT actually
 */
