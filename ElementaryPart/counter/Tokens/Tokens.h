@@ -7,32 +7,54 @@
 const double e = 2.71828182845904523536;
 const double pi = 3.14159265358979323846;
 // define the token types
-enum Token
-{
-    OR, AND,
+enum Token {
+  OR,
+  AND,
 
-    GREATER, GREATER_EQUAL,
-    LESS, LESS_EQUAL,
+  GREATER,
+  GREATER_EQUAL,
+  LESS,
+  LESS_EQUAL,
 
-    EQUAL_EQUAL = 11, BANG_EQUAL,
+  EQUAL_EQUAL = 11,
+  BANG_EQUAL,
 
-    PLUS, MINU,
+  PLUS,
+  MINU,
 
-    MULT = 20, DIVI, MOD,
-    
-    SQUA,
+  MULT = 20,
+  DIVI,
+  MOD,
 
-    SIN, COS, TAN, SQRT, ABS, LOG, LN, EXP, LPARE, RPARE,
-    
-    NUL, NUM,
+  SQUA,
 
-    EQUAL, BANG,
+  SIN,
+  COS,
+  TAN,
+  SQRT,
+  ABS,
+  LOG,
+  LN,
+  EXP,
+  LPARE,
+  RPARE,
 
-    FUN, VAR, VARDEF, PARAM, FUNDEF,
+  NUL,
+  NUM,
 
-    UNKNOWN, END
+  EQUAL,
+  BANG,
+
+  FUN,
+  VAR,
+  VARDEF,
+  PARAM,
+  FUNDEF,
+
+  UNKNOWN,
+  END
 };
 // get the value of a number token
-double getNum (std::string s);
+double getNum(std::string s);
 
 #endif

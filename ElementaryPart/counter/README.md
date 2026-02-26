@@ -61,8 +61,8 @@ Windows11
 
 对于整体上的结构设计参考了[《craftinginterpreters》](https://craftinginterpreters.com/)。
 
-对于排版则是在参考了ai的代码后~~大刀阔斧~~的修改了一点。
+对于排版使用clang-format大刀阔斧的修改成了Google标准。
 
-对于Calculators中有关调度场算法的代码基本上由伟大的ChatGPT实现，而注释则大都用Tab+肉眼识别。~~(本蒻蒻在算法和英语上实在是拼尽全力，无法战胜了)~~
+对于Calculators中有关调度场算法的代码基本上由伟大的ChatGPT实现~~（啥子ChatGPT天天就知道预设功能）~~，而注释则大都用Tab+肉眼识别~~（啥子Tab天天说些没用的）~~。
 
 ---

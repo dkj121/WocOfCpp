@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/snake/">
+    <file alias="Main.qml">E:/Code_Programs/learning/CorCppLearning/WocOfCpp/AdvancedPart/snake/snake/Main.qml</file>
+  </qresource>
+</RCC>
+

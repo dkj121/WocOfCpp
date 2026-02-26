@@ -4,42 +4,36 @@ Use Example :fun(5) => 5 ^ 2 + 3 => 28
 */
 #include "Calculators.h"
 
-double CalculateFunction(const std::vector<std::pair<Token, std::string>> function,
-                         const std::map<std::string, double>& variables,
-                         Error& err)
-{
-    std::vector<std::pair<Token, std::string>> substitutedFunction = function;
-    for (auto& token : substitutedFunction)
-    {
-        if (token.first == PARAM)
-        {
-            auto it = variables.find(token.second);
-            if (it == variables.end())
-            {
-                err = ERROR_UNDEFINED_VARIABLE;
-                return 0.0;
-            }
-            token.first = NUM;
-            token.second = std::to_string(it->second);
-        }
+double CalculateFunction(
+    const std::vector<std::pair<Token, std::string>> function,
+    const std::map<std::string, double>& variables, Error& err) {
+  std::vector<std::pair<Token, std::string>> substitutedFunction = function;
+  for (auto& token : substitutedFunction) {
+    if (token.first == PARAM) {
+      auto it = variables.find(token.second);
+      if (it == variables.end()) {
+        err = ERROR_UNDEFINED_VARIABLE;
+        return 0.0;
+      }
+      token.first = NUM;
+      token.second = std::to_string(it->second);
     }
-    return getNum(CommenCalculate(substitutedFunction, {}, variables));
+  }
+  return getNum(CommenCalculate(substitutedFunction, {}, variables));
 }
 
-std::vector<std::pair<Token, std::string>> DefineFunction(std::vector<std::pair<Token, std::string>> input)
-{
-    std::vector<std::pair<Token, std::string>> result;
+std::vector<std::pair<Token, std::string>> DefineFunction(
+    std::vector<std::pair<Token, std::string>> input) {
+  std::vector<std::pair<Token, std::string>> result;
 
-    std::string param = input[2].second;
+  std::string param = input[2].second;
 
-    for (size_t i = 5; i < input.size(); ++i)
-    {
-        if (input[i].first == PARAM && input[i].second != param)
-        {
-            throw ERROR_VARIABLE_ALREADY_DEFINED;
-        }
-        result.push_back(input[i]);
+  for (size_t i = 5; i < input.size(); ++i) {
+    if (input[i].first == PARAM && input[i].second != param) {
+      throw ERROR_VARIABLE_ALREADY_DEFINED;
     }
+    result.push_back(input[i]);
+  }
 
-    return result;
+  return result;
 }
