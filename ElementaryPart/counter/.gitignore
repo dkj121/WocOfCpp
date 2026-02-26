@@ -1,0 +1,6 @@
+.vscode/
+out/build/MyCounter/.cmake/
+out/build/MyCounter/CMakeFiles/
+out/build/MyCounter/CMakeCache.txt
+out/build/MyCounter/Makefile
+out/build/MyCounter/cmake_install.cmake
