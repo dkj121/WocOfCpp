@@ -1,9 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/snake/">
-    <file alias="Assets/Hoolheyak-Move-x1-left.gif">E:/Code_Programs/learning/CorCppLearning/WocOfCpp/AdvancedPart/snake/snake/Assets/Hoolheyak-Move-x1-left.gif</file>
-    <file alias="Assets/Hoolheyak-Move-x1-right.gif">E:/Code_Programs/learning/CorCppLearning/WocOfCpp/AdvancedPart/snake/snake/Assets/Hoolheyak-Move-x1-right.gif</file>
-    <file alias="Assets/Hoolheyak-Relax-x1-left.gif">E:/Code_Programs/learning/CorCppLearning/WocOfCpp/AdvancedPart/snake/snake/Assets/Hoolheyak-Relax-x1-left.gif</file>
-    <file alias="Assets/Hoolheyak-Relax-x1-right.gif">E:/Code_Programs/learning/CorCppLearning/WocOfCpp/AdvancedPart/snake/snake/Assets/Hoolheyak-Relax-x1-right.gif</file>
-  </qresource>
-</RCC>
-
