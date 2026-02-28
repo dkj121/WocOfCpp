@@ -10,12 +10,18 @@ qt_standard_project_setup(REQUIRES 6.8)
 
 qt_add_executable(appsnake
     main.cpp
+    ${snake_resources}
 )
 
 qt_add_qml_module(appsnake
     URI snake
     QML_FILES
         Main.qml
+    RESOURCES
+        Assets/Hoolheyak-Move-x1-left.gif
+        Assets/Hoolheyak-Move-x1-right.gif
+        Assets/Hoolheyak-Relax-x1-left.gif
+        Assets/Hoolheyak-Relax-x1-right.gif
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
