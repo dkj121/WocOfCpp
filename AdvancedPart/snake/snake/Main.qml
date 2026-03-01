@@ -1,14 +1,20 @@
 import QtQuick
 import QtQuick.Controls
+import QtMultimedia
 
 Window {
     width: snake.sourceSize.width
     height: snake.sourceSize.height
     visible: true
-    AnimatedImage {
+    MediaPlayer {
         id: snake
-        source: "Assets/Hoolheyak-Relax-x1-right.gif"
-        fillMode: Image.PreserveAspectFit
+        source: "Assets/Hoolheyak-Move-x1-right.webm"
+        videoOutput: videoOutput
+        autoPlay: true
+    }
+    VideoOutput {
+        id: videoOutput
+        anchors.fill: parent
     }
     MouseArea {
         anchors.fill: parent
