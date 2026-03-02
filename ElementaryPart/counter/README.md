@@ -2,12 +2,6 @@
 
 ---
 
-## 可执行文件
-
-[counter.exe](ElementaryPart/counter/out/build/myCounter/counter.exe)
-
----
-
 ## 执行样例
 
 ![样例](../../Asset/Snipaste_2026-02-24_11-16-08.jpg)
@@ -16,10 +10,11 @@
 
 ## Quick Start
 
-当‘>’出现，证明程序正常运行
-对多字符关键字不支持去除字符之间的空格
-对于函数定义固定使用fun(x) = …… ~~（自己都忘了两次）~~
-建议按Ctrl + C结束程序
+1.可执行文件：[counter.exe](ElementaryPart/counter/out/build/myCounter/counter.exe)
+2.当‘>’出现，证明程序正常运行
+3.对多字符关键字不支持去除字符之间的空格
+4.对于函数定义固定使用fun(x) = …… ~~（自己都忘了两次）~~
+5.建议按Ctrl + C结束程序
 
 ---
 
