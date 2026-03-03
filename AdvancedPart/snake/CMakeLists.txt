@@ -28,8 +28,6 @@ qt_add_qml_module(appsnake
         Assets/Influences-Through-the-Ages/Sit.gif
         Assets/Influences-Through-the-Ages/Sleep.gif
         Assets/Influences-Through-the-Ages/Special.gif
-        QML_FILES snake.qml
-        RESOURCES README.md
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
