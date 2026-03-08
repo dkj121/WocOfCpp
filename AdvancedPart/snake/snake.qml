@@ -131,7 +131,7 @@ Window {
         }
         MenuItem {
             text: "Delete"
-            onTriggered: snake.close()
+            onTriggered: snake.destroy()
         }
     }
 

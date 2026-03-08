@@ -8,7 +8,7 @@ Window {
     visible: true
 
     property string snakeStyle: "Assets/Eternal-Ceremony"
-    property var snakeWindow: null
+    property var snakeWindow: [null]
 
     Button {
         width: parent.width / 3
@@ -52,9 +52,9 @@ Window {
     function createSnake() {
         var component = Qt.createComponent("snake.qml");
         if (component.status === Component.Ready) {
-            snakeWindow = component.createObject(null);
-            snakeWindow.setStyle(snakeStyle);
-            snakeWindow.show();
+            snakeWindow.push(component.createObject(null));
+            snakeWindow[snakeWindow.length - 1].setStyle(snakeStyle);
+            snakeWindow[snakeWindow.length - 1].show();
         }
     }
 }
