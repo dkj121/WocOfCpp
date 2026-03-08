@@ -3,7 +3,7 @@
     "configurePresets": [
         {
             "name": "MyCounter",
-            "displayName": "GCC 15.2.0 x86_64-w64-mingw32",
+            "displayName": "GCC 15.2.0 x86_64-w64-ucrt64",
             "description": "Using compilers: C = E:\\MSYS2\\ucrt64\\bin\\gcc.exe, CXX = E:\\MSYS2\\ucrt64\\bin\\g++.exe",
             "generator": "MinGW Makefiles",
             "binaryDir": "${sourceDir}/out/build/${presetName}",
